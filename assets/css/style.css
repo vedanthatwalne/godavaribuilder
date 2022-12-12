@@ -1687,6 +1687,7 @@ a:hover {
   margin-top: 50px;
   height: 87vh;
   width: 100%;
+  /* width: 1250px; */
   position: absolute;
   background-size: cover;
   z-index: -1;
@@ -1758,11 +1759,18 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
-  .slidersImage2,.slidersImage3 img{
+  .slidersImage3 img{
     height: 88vh;
     /* background-color: #000000; */
   }
 }
+
+@media (min-width: 1200px) {
+  .slidersImage2 img{
+    height: 90vh;
+  } 
+} 
+
 @media (min-width: 1400px) {
   .slidersImage2, .slidersImage3 img{
     height: 92vh;
@@ -1772,14 +1780,36 @@ a:hover {
 
 
 @media (max-width: 655px) {
-  .slidersImage2, .slidersImage3 img{
+  .slidersImage2, .slidersImage3 {
     width: 100%;
     /* height: 100px; */
-    background-color: #000000;
+    /* background-color: #000000; */
   }
 }
 
+@media (max-width: 600px) {
+  .slidersImage2 {
+    /* background-color: #000000; */
+  }
+  .slidersImage2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200%;  
+    right: -50%;
+  }
+}
 
+@media (max-width: 597px) {
+  .slidersImage1 {
+    /* background-color: #000000; */
+  }
+  .slidersImage1 img {
+    top: 25%;
+    bottom: 25%;
+    height: 50vh;
+  }
+}
 
 .sinse-box {
   background-color: #2eca6a;
@@ -1788,6 +1818,7 @@ a:hover {
   left: 15px;
   bottom: 10px;
 }
+
 @media (min-width: 576px) {
   .sinse-box {
     padding: 1.5rem 2.5rem;
