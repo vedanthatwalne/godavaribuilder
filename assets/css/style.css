@@ -2039,10 +2039,10 @@ a:hover {
   border-color: #2eca6a;
 }
 
-.php-email-form .error-message {
+.error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #17ff87;
   text-align: center;
   padding: 15px;
   font-weight: 600;
