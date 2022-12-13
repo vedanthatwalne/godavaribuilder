@@ -228,7 +228,23 @@
           <div class="col-sm-12 section-t8">
             <div class="row">
               <div class="col-md-7">
-                <form action="https://formsubmit.co/f46c931b1fcf6f610fb1224c7a62f1a1" method="post" class="php-email-form">
+                <form action="https://formsubmit.co/f46c931b1fcf6f610fb1224c7a62f1a1" method="post">
+                  <div class="msg-and-name-inputs">
+                    <input type="text" class="name-form form-control form-control-lg form-control-a" name="name" style="margin-top: 30px;" placeholder="Your Name" required>
+                    <input type="email" name="email" class="msg-input-container form-control form-control-lg form-control-a" style="margin-top: 30px;" placeholder="Your Email">
+                  </div>
+                  <input type="text" name="subject" class="form-control subject-container form-control-lg form-control-a" style="margin-top: 30px;"
+                  placeholder="Subject" required>
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_subject" value="Got another email!">
+                  <!-- <text type="text" name="message" placeholder="write message here"> -->
+                    <textarea name="message" class="message-container form-control" style="margin-top: 30px;" id="" placeholder="Message" required  cols="45" rows="8"></textarea>
+                  <input type="hidden" name="_next" value="http://127.0.0.1:5500/godavaribuilder/thanks.html">
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-a" style="margin-top: 20px;">Send Message</button>
+                  </div>
+                </form>
+                <!-- <form action="https://formsubmit.co/f46c931b1fcf6f610fb1224c7a62f1a1" method="post" class="php-email-form">
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <div class="form-group">
@@ -254,11 +270,12 @@
                         <textarea name="message" class="form-control" name="message" cols="45" rows="8"
                           placeholder="Message" required></textarea>
                       </div>
+                      <input type="hidden" name="_next" value="http://127.0.0.1:5500/godavaribuilder/thanks.html">
                     </div>
                     <div class="col-md-12 my-3">
                       <div class="mb-3">
                         <div class="loading">Loading</div>
-                        <div class="error-message"></div>
+                        <div class="error-message">Success</div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                       </div>
                     </div>
@@ -267,7 +284,7 @@
                       <button type="submit" class="btn btn-a">Send Message</button>
                     </div>
                   </div>
-                </form>
+                </form> -->
               </div>
               <div class="col-md-5 section-md-t3">
                 <div class="icon-box section-b2">

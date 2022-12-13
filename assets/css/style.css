@@ -1535,9 +1535,38 @@ a:hover {
     font-size: 1.8rem;
   }
 }
+
+@media (min-width: 1400px) {
+  .title-c {
+    font-size: 1.8rem;
+  }
+}
+
+
 @media (min-width: 992px) {
   .title-c {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* .msg-input-container input{
+} */
+
+
+.msg-and-name-inputs {
+  display: flex;
+}
+
+.msg-and-name-inputs input:first-child {
+  margin-right: 20px;
+}
+
+@media (max-width: 515px) {
+  .msg-and-name-inputs {
+    display: grid;
+  }
+  .email-form {
+    margin: 0;
   }
 }
 
