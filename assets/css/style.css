@@ -312,6 +312,20 @@ a:hover {
   }
 }
 
+.pricing-details {
+  padding: 10px;
+  background-color: #28282B;
+  width: 220px;
+  color: white;
+  border-radius: 30px;
+  border: 2px solid rgb(24, 210, 110);
+  text-transform: uppercase;
+}
+
+.pricing-details a {
+  color: white;
+}
+
 /*------/ Title /------*/
 .title-wrap {
   padding-bottom: 4rem;
